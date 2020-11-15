@@ -1,0 +1,13 @@
+.UserImg
+{
+    position: relative;
+}
+
+.online_label
+{
+    background-color: green;
+    border-radius: 15px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}

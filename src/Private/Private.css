@@ -1,0 +1,19 @@
+.Private
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.private_data
+{
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+}
+
+.private_img_div
+{
+    width: 300px;
+    height: 400px;
+    background-color: gray;
+}

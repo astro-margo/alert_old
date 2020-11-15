@@ -1,0 +1,47 @@
+.NewMessage
+{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    align-items: flex-start;
+}
+
+.new_message_input
+{
+    width: 90%;
+    min-height: 50px;
+    max-height: 300px;
+    overflow: visible;
+    margin: 5px 10px;
+    display: inline-block;
+}
+
+.textarea_hidden
+{
+    width: 90%;
+    border: 1px solid black;
+    overflow: visible;
+    visibility: hidden;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+background-color: blue;
+}
+
+.send_message
+{
+    padding: 10px 30px;
+    background-color: teal;
+    display: inline-block;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.del_msg_for_recall
+{
+    background-color: lightgray;
+    display: inline-block;
+    padding: 5px 15px;
+    cursor: pointer;
+}

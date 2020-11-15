@@ -1,0 +1,19 @@
+.MsgMenuPanel
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.msg_menu_panel_item
+{
+    background-color: gray;
+    border-radius: 50%;
+    font-size: 2rem;
+    margin: 0.2rem;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

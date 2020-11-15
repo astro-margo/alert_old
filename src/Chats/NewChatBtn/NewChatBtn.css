@@ -1,0 +1,10 @@
+.NewChatBtn
+{
+    background-color: teal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 10px 0;
+    cursor: pointer;
+}

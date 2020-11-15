@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Yellowtail&display=swap');
+
+html, body, #root
+{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.App
+{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.header
+{
+    background-color: darkgray;
+    color: lightgray;
+    font-family: 'Yellowtail', cursive;
+    font-size: calc(35px + 3vw);
+    height: calc(60px + 3vw);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

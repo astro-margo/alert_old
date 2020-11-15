@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Yellowtail&display=swap');
+
+.Home
+{
+    min-height: 100%;
+    background: linear-gradient(179.73deg, #1488CC 0.33%, #2B32B2 99.66%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.home_img
+{
+    width: 100%;
+}
+
+.btn_panel
+{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.div_with_logo
+{
+    text-align: center;
+    font-family: 'Yellowtail', cursive;
+    font-size: 15vw;
+    color: white;
+}
+
+.btn
+{
+    background-color: white;
+    font-size: calc(12px + 1vw);
+    border-radius: 40px;
+    padding: 0.2em 2em;
+    transition-duration: 1s;
+    font-weight: bold;
+    color: blue;
+    cursor: pointer;
+}
+
+.btn:hover
+{
+    background: orange;
+    color: white;
+    transition-duration: 1s;
+}
+
+.nav_link
+{
+    text-decoration: none;
+}

@@ -1,0 +1,11 @@
+.private_attach_btn
+{
+    display: flex;
+    width: 200px;
+    height: 30px;
+    background-color: teal;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 0 5px;
+}

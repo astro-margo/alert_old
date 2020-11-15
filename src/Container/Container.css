@@ -1,0 +1,33 @@
+@media (max-width: 800px)
+{
+    .Container
+    {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container_main
+    {
+        height: calc(100% - 40px);
+        width: 100%;
+        overflow: auto;
+    }
+}
+
+@media (min-width: 801px)
+{
+    .Container
+    {
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .container_main
+    {
+        height: 100%;
+        width: 100%;
+        overflow: auto;
+    }
+}

@@ -1,0 +1,30 @@
+.ChatBox
+{
+    border: 1px solid black;
+    margin: 5px;
+    display: flex;
+}
+
+.chat_name
+{
+    margin: 0 5px;
+}
+
+.chat_menu
+{
+    padding: 5px 15px;
+    background-color: teal;
+    margin: 0 5px;
+    cursor: pointer;    
+}
+
+.chatbox_menu_item
+{
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.chatbox_menu_item:hover
+{
+    background-color: gray;
+}
